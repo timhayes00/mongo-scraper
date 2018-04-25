@@ -7,10 +7,10 @@ var ArticleSchema = new Schema({
         type: String,
         required: true
     },
-    summary: {
-        type: String,
-        required: false //I know the instructions want a summary, but I'm going to start with the NHL example from class just to eliminate failure points in my code, so I'm currently making this "optional"
-    },
+    // summary: {
+    //     type: String,
+    //     required: false //I know the instructions want a summary, but I'm going to start with the NHL example from class just to eliminate failure points in my code, so I'm currently making this "optional" in my schema
+    // },
     link: {
         type: String,
         required: true
